@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title><ui:insert name="pageTitle">Titulo Padrao</ui:insert></title>
+
+	<h:outputStylesheet library="bootstrap" name="css/bootstrap.css" />
+
+	<h:outputScript library="bootstrap" name="js/bootstrap.js" />
+	<h:outputScript library="js" name="jquery-2.0.2.js" />
+</h:head>
+
+<h:body>
+
+	<header id="header"> <ui:insert name="header">
+    	Header area.  See comments below this line in the source.    	
+	</ui:insert> </header>
+
+
+	<div id="content">
+		<ui:insert name="content">
+    	Content area.  See comments below this line in the source.    	
+		</ui:insert>
+	</div>
+
+	<footer id="footer"> <ui:insert name="footer">
+    	Footer area.  See comments below this line in the source.    	
+	</ui:insert> </footer>
+</h:body>
+
+</html>
