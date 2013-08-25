@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: gray;
+}
+
+
+#header{
+	height: 25%;
+	padding: 1% 1% 1% 1%;
+	margin: .5%;
+		
+	background-color: aqua;
+	
+}
+
+#content{	
+	
+	height: 65%;
+	padding: 1%;
+	margin: .5%;		
+}
+
+#footer{
+	clear: both;
+	height: 5%;	
+	margin: .5%;
+	
+	background-color: navy;
+	
+}

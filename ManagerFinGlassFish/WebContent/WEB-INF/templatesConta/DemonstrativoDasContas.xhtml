@@ -1,0 +1,24 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:outputStylesheet library="templatesConta" name="css/demontrativoDasContas.css"/>
+
+	<h:outputText value="Contas de Movimentacao" styleClass="h2Asside" />
+	<br />
+	<h:dataTable var="conta" value="#{mbConta.contas}"
+		styleClass="tabelaContas" rowClasses="tabelaLinhas"
+		columnClasses="column-nome-conta, column-cifrao, column-saldo">
+		<h:column>
+			<h:outputText value="#{conta.nome}" styleClass="nome-conta" />
+		</h:column>
+		<h:column>
+			<h:outputText value="R$.: " styleClass="cifrao" />
+		</h:column>
+		<h:column>
+			<h:outputText value="#{conta.valorTotal}"
+				styleClass="aalinhamento-texto" />
+		</h:column>
+	</h:dataTable>
+	<p class="saldoTotalContas">R$.: xxxx,xx</p>
+
+</ui:composition>

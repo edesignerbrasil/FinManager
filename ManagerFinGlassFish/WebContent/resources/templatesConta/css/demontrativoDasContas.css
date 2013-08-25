@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+
+.tabelaContas{	
+	width: 100%;	
+	}
+
+.column-cifrao{
+	text-align: right;
+	padding-left: 1%;	
+}
+.column-saldo{
+	text-align: right;		
+}
+.saldoTotalContas{
+	border-top: 1px solid red;
+	text-align: right;
+}

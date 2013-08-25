@@ -2,6 +2,16 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html">
 
-<p>Aqui e o conteudo</p>
+	<h:outputStylesheet library="templatesPages" name="css/pageContent.css" />
+
+	<section class="row-fluid">
+		<aside id="conteudoSecundario" class="span3">
+			<ui:include src="/WEB-INF/templatesConta/DemonstrativoDasContas.xhtml">Demo</ui:include>
+		</aside>
+		<article id="conteudoPrimario" class="span3">
+			<h:graphicImage library="templatesPages" name="img/ui-Applet.png" style="padding:10%;"></h:graphicImage>
+		</article>
+	</section>
+
 
 </ui:composition>

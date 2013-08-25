@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+.h2Asside {
+	color: yellow;
+	font-size: 1.2em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#conteudoSecundario {
+	
+	width: 22.5%;
+	height: 100%;	
+}
+
+#conteudoPrimario {		
+	width: 72.5%;
+	height: 100%;
+	
+	border-left: 2px solid red;
+	background-color: lime;
+}
