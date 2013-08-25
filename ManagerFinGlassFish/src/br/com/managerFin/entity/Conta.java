@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Conta {
 
 	private String nome;
-	private BigDecimal valorTotal;
+	private BigDecimal saldoConta;
 	
 	public Conta() {
 		// TODO Auto-generated constructor stub
@@ -14,7 +14,7 @@ public class Conta {
 	public Conta(String nome, BigDecimal valorTotal) {
 		super();
 		this.nome = nome;
-		this.valorTotal = valorTotal;
+		this.saldoConta = valorTotal;
 	}
 
 
@@ -28,12 +28,12 @@ public class Conta {
 		this.nome = nome;
 	}
 
-	public BigDecimal getValorTotal() {
-		return valorTotal;
+	public BigDecimal getSaldoConta() {
+		return saldoConta;
 	}
 
-	public void setValorTotal(BigDecimal valorTotal) {
-		this.valorTotal = valorTotal;
+	public void setSaldoConta(BigDecimal valorTotal) {
+		this.saldoConta = valorTotal;
 	}
 	
 	
